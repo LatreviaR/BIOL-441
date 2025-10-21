@@ -6,4 +6,10 @@
 library(affy)
 
 #Reading sample microarray data
-setwd("/Users/latre/OneDrive/Desktop")
+setwd("/Users/latre/OneDrive/Desktop/data")
+
+#Read raw microarray data
+data <-ReadAffy()
+
+#Boxplot raw data
+boxplot(data)
